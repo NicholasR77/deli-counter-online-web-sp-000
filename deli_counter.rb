@@ -1,6 +1,6 @@
 # Write your code here.
 
-katz_deli = ["bob", "joe", "nathan"]
+people = ["bob", "joe", "nathan"]
 
 def line(array, element)
   if (array.length == 0)
@@ -14,3 +14,5 @@ def take_a_number(katz_deli, name)
   katz_deli.push(name)
   line(katz_deli, name)
 end
+
+take_a_number(katz_deli, name)
