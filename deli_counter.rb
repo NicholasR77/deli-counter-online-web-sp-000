@@ -1,11 +1,11 @@
 # Write your code here.
 
 katz_deli = ["bob", "joe", "nathan"]
+katz_deli_numbers = []
 
 def line(katz_deli)
-
-  katz_deli_numbers = katz.each.with_index do |name, position|
-    
+  katz.each.with_index do |name, position|
+    katz_deli_numbers.push("#{position}+1 #{name}")
   end
   if (katz_deli.length == 0)
     puts "The line is currently empty."
