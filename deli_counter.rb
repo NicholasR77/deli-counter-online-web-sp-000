@@ -1,6 +1,6 @@
 # Write your code here.
 
-katz_deli = ["bob", "joe", "nathan"]
+katz_deli = []
 
 def line(katz_deli, name)
   if (katz_deli.length == 0)
