@@ -1,12 +1,12 @@
 # Write your code here.
 
-people = ["bob", "joe", "nathan"]
+katz_deli = ["bob", "joe", "nathan"]
 
-def line(array, element)
+def line(katz_deli, name)
   if (array.length == 0)
     puts "The line is currently empty."
   else
-    puts "Your place in line is #{array.index(element)+1}"
+    puts "Welcome, #{}Your place in line is #{array.index(element)+1}"
   end
 end
 
