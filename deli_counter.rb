@@ -19,14 +19,7 @@ def now_serving(katz_deli)
   if (katz_deli.length == 0)
     puts "There is nobody waiting to be served!"
   else
-    puts "Now serving #{katz_deli[0]}"
+    puts "Now serving #{katz_deli[0].}"
     katz_deli.shift
   end
 end
-
-take_a_number(katz_deli, "nick")
-now_serving(katz_deli)
-now_serving(katz_deli)
-now_serving(katz_deli)
-now_serving(katz_deli)
-now_serving(katz_deli)
