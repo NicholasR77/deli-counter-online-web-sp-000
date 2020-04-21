@@ -4,7 +4,7 @@ katz_deli = ["bob", "joe", "nathan"]
 
 def line(katz_deli)
   people = katz.each.with_index do |name, position|
-    
+
   end
   if (katz_deli.length == 0)
     puts "The line is currently empty."
