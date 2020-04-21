@@ -2,11 +2,11 @@
 
 katz_deli = ["bob", "joe", "nathan"]
 
-def line(katz_deli, name)
+def line(katz_deli)
+  joined = katz_deli.join(array.index + " ")
   if (katz_deli.length == 0)
     puts "The line is currently empty."
   else
-    puts "Welcome, #{name}. You are number #{katz_deli.index(name) + 1} in line."
   end
 end
 
