@@ -10,5 +10,9 @@ def line(array, element)
   end
 end
 
+def take_a_number
+  
+end
+
 
 line(line,"joe")
