@@ -3,7 +3,7 @@
 katz_deli = ["bob", "joe", "nathan"]
 
 def line(katz_deli)
-  joined = katz_deli.join(katz_deli.index + " ")
+  joined = katz_deli.join(" ")
   if (katz_deli.length == 0)
     puts "The line is currently empty."
   else
