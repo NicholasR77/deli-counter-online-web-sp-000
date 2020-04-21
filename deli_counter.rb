@@ -7,6 +7,7 @@ def line(array, element)
     puts "The line is currently empty."
   else
     puts "Your place in line is #{array.index(element)+1}"
+  end  
 end
 
 
