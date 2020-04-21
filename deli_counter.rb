@@ -3,7 +3,7 @@
 katz_deli = ["bob", "joe", "nathan"]
 
 def line(katz_deli, name)
-  if (array.length == 0)
+  if (katz_deli.length == 0)
     puts "The line is currently empty."
   else
     puts "Welcome, #{name}. You are number #{katz_deli.index(name) + 1} in line."
