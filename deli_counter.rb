@@ -4,6 +4,8 @@ katz_deli = ["bob", "joe", "nathan"]
 katz_deli_numbers = []
 
 def line(katz_deli)
+  katz_deli_numbers = []
+  
   katz_deli.each.with_index do |name, position|
     katz_deli_numbers.push("#{position + 1} #{name}")
   end
