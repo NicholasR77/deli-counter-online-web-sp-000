@@ -10,8 +10,8 @@ def line(array, element)
   end
 end
 
-def take_a_number
-  
+def take_a_number(katz_deli, name)
+
 end
 
 
