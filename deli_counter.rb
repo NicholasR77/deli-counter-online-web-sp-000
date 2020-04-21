@@ -15,4 +15,4 @@ def take_a_number(katz_deli, name)
   line(katz_deli, name)
 end
 
-take_a_number(people, "nick")
+take_a_number(katz_deli, "nick")
